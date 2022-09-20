@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta for seo -->
+    <meta
+      name="description"
+      content="Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.
+
+Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian to incorporate additional cuisines from the Mediterranean region."
+    />
+    <meta name="author" content="Little Lemon" />
+
+    <title>Little Lemon</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <img src="imgs/Logo.webp" alt="logo" />
+        <button id="open-nav-btn" aria-label="open navbar">
+          <img src="imgs/hamburger-icon.svg" alt="" />
+        </button>
+        <button id="close-nav-btn" class="hidden" aria-label="close navbar">
+          <img src="imgs/close-icon.svg" alt="" />
+        </button>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Book</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="promotion">
+        <div class="container">
+          <h1>Little Lemon</h1>
+          <p>
+            <strong>20% off</strong> all orders over $100
+            <br />
+            Use code: <strong>LEMON20</strong>
+          </p>
+          <a class="order-btn" href="#">
+            See menu & order now <img src="./imgs/arrow-icon.svg" alt="" />
+          </a>
+        </div>
+      </section>
+
+      <section class="recipes">
+        <div class="container">
+          <h2>Recipes</h2>
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/recipe-1.webp" alt="recipe1" loading="lazy"/>
+              <div class="card-content">
+                <h3>Italian recipes</h3>
+                <p>
+                  Italian food is one of the few global cuisines that Indians
+                  are truly obsessed with. There are so many varieties to choose
+                  among Italian dishes in veg or non-veg.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="imgs/recipe-2.webp" alt="recipe2" loading="lazy" />
+              <div class="card-content">
+                <h3>Greek recipes</h3>
+                <p>
+                  Greek food is one of the few global cuisines that Indians are
+                  truly obsessed with. There are so many varieties to choose
+                  among Greek dishes in veg or non-veg.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="imgs/recipe-3.webp" alt="recipe3" loading="lazy" />
+              <div class="card-content">
+                <h3>Turkey recipes</h3>
+                <p>
+                  Turkey food is one of the few global cuisines that Indians are
+                  truly obsessed with. There are so many varieties to choose
+                  among Turkey dishes in veg or non-veg.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a class="order-btn" href="#">
+            See menu & order now <img src="./imgs/arrow-icon.svg" alt="" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <img src="./imgs/footer-logo.webp" alt="" />
+        <p>© copyright little lemon</p>
+      </div>
+    </footer>
+
+    <script src="./nav-toggler.js"></script>
+  </body>
+</html>
