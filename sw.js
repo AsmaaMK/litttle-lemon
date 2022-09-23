@@ -13,6 +13,7 @@ const resourcesToPrecache = [
   '/imgs/recipe-1.webp',
   '/imgs/recipe-2.webp',
   '/imgs/recipe-3.webp',
+  '/imgs/mobile-icon.png',
 ];
 
 self.addEventListener('install', (event) => {
